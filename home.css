@@ -1,0 +1,45 @@
+html {background-color: yellow;
+    font-size: 16px;
+    font-family: sans-serif;}
+
+  body {
+    box-shadow: 0 0 12px -1px royalblue;
+    /* height: 100vh; */
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto
+  }
+
+  a {
+    color: orange;
+    text-decoration: none;
+    font-size: x-large;
+    margin: 0 5px;
+  }
+  
+  nav {
+    box-shadow: 0 0 12px -2px royalblue;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: rgb(47, 74, 156);
+    color: wheat;
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  
+  main {
+    min-height: 100vh;
+    padding: 80px 20px 90px;
+    box-shadow: 0 0 12px -2px black;
+    color: salmon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  @media screen and (max-width: 480px) {
+    .project {
+      width: 100%;
+    }
