@@ -43,7 +43,6 @@ html {background-color: yellow;
     background-color: rgb(47, 74, 156);
     color: aliceblue;
     padding: 1%;
-    position:static;
     left: 0;
     right: 0;
     bottom: 0;
@@ -52,6 +51,12 @@ html {background-color: yellow;
     box-shadow: 0 0 12px -2px black;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 500px) {
     .project {
-      width: 100%;}
+      width: 100%;
+    }
+  
+    .project-content {
+      display: flex;
+      flex-direction: column;
+    }}
