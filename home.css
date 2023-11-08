@@ -39,7 +39,19 @@ html {background-color: yellow;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
+  footer {
+    background-color: rgb(47, 74, 156);
+    color: aliceblue;
+    padding: 1%;
+    position:static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 0 12px -2px black;
+  }
+
   @media screen and (max-width: 480px) {
     .project {
-      width: 100%;
-    }
+      width: 100%;}
