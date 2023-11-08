@@ -6,7 +6,7 @@ html {background-color: yellow;
     box-shadow: 0 0 12px -1px royalblue;
     /* height: 100vh; */
     padding: 0;
-    max-width: 960px;
+    max-width: 900px;
     margin: 0 auto
   }
 
@@ -46,7 +46,7 @@ html {background-color: yellow;
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
     text-align: left;
     box-shadow: 0 0 12px -2px black;
   }
