@@ -1,0 +1,97 @@
+html {background-color: yellow;
+    font-size: 16px;
+    font-family: sans-serif;}
+
+  body {
+    box-shadow: 0 0 12px -1px royalblue;
+    /* height: 100vh; */
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto
+  }
+
+  a {
+    color: orange;
+    text-decoration: none;
+    font-size: x-large;
+    margin: 0 5px;
+  }
+  
+  nav {
+    box-shadow: 0 0 12px -2px royalblue;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: rgb(47, 74, 156);
+    color: wheat;
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  
+  main {
+    min-height: 100vh;
+    padding: 80px 20px 90px;
+    box-shadow: 0 0 12px -2px black;
+    color: salmon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  footer {
+    background-color: rgb(47, 74, 156);
+    color: aliceblue;
+    padding: 1%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    text-align: left;
+    box-shadow: 0 0 12px -2px black;
+  }
+
+.circle2 {
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(228, 83, 83, 0.5);
+    border-radius: 70%;
+    z-index: 21;
+    right: 150px;
+    bottom: -60px;
+}
+
+.circle3 {
+    position:absolute;
+    height: 11em;
+    width: 11em;
+    background-color: rgba(49, 160, 160, 0.857);
+    border-radius: 50% solid;
+    z-index: 15;
+    right: 10%;
+    bottom: -20%;
+}
+
+.triangle-down {
+  position:absolute;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid rgba(170, 97, 49, 0.479);
+  right: 15%;
+  bottom: 7%;
+}
+
+}
+
+  @media screen and (max-width: 500px) {
+    .project {
+      width: 100%;
+    }
+  
+    .project-content {
+      display: flex;
+      flex-direction: column;
+    }}
